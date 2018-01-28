@@ -6,6 +6,9 @@ html,body {
   text-align: center;
   font-family: Roboto Mono, sans-serif;
   color: rgb(19,241,23);
+  -ms-align-items: center;
+  align-items: center;
+  align-content: center;
 }
 #title {
   margin: 29px;
