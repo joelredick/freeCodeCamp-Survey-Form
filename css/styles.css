@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700');
+
+html,body {
+  background: url("http://pre10.deviantart.net/521a/th/pre/f/2015/271/5/b/fallout_terminal_effect_video_by_cosmodahuskey-d9b78gh.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  font-family: Roboto Mono, sans-serif;
+  color: rgb(19,241,23);
+}
+#title {
+  margin: 29px;
+  padding: 13px;
+}
+.survey-container {
+  background: #1b1c1c;
+  margin: auto;
+  padding: 13px;
+  padding-bottom: 23px;
+  width: 66%;
+  max-width: 997px;
+  border: 3px solid rgb(19,241,23);
+  border-radius: 3px;
+}
+#description {
+  margin: auto;
+  padding: 13px;
+}
+#survey-form {
+
+}
+.rows {
+  margin: auto;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  position: relative;
+  right: 113px;
+  width: 41%;
+  margin: auto;
+  padding: 13px;
+}
+.inputs {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  position: relative;
+  right: 119px;
+  width: 281px;
+  margin: auto;
+  padding: 7px;
+  vertical-align: middle;
+}
+#name-label {
+
+}
+#name {
+
+}
+#email-label {
+
+}
+#email {
+
+}
+#number-label {
+
+}
+#number {
+
+}
+.input-field {
+  height: 21px;
+  width: 281px;
+  padding: 7px;
+  margin: 11px;
+  border: 3px solid #c0c0c0;
+  border-radius: 3px;
+}
+#dropdown {
+  height: 33px;
+  width: 141px;
+  padding: 7px;
+  margin: 11px;
+  margin-top: 17px;
+  border: 3px solid #c0c0c0;
+  border-radius: 3px;
+}
+.rating, input[type="checkbox"] {
+  float: left;
+  margin-right: 7px;
+  position: relative;
+  right: 19px;
+}
+.radio, .checkbox {
+  position: relative;
+  right: 13px;
+  display: block;
+}
+textarea {
+  margin: 23px;
+  position: relative;
+  top: 43px;
+  vertical-align: top;
+}
+#submit {
+  position: relative;
+  top: 17px;
+  margin: 19px;
+  margin-top: 31px;
+  transform: scale(1.5);
+}
+footer {
+  margin: 11px;
+  margin-bottom: 23px;
+  padding: 7px;
+  color: rgb(19,241,23);
+}
